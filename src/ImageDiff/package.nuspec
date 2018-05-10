@@ -1,19 +1,19 @@
-<?xml version="1.0"?>
-<package>
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!--*-->
     <id>ImageDiff</id>
     <!--*-->
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
     <title>ImageDiff</title>
     <!--*-->
     <authors>https://github.com/lzehrung</authors>
     <owners>https://github.com/lzehrung</owners>
-    <!--
-    <licenseUrl></licenseUrl>
-    <projectUrl></projectUrl>
-    <iconUrl></iconUrl>
--->
+    
+    <licenseUrl>https://github.com/lzehrung/ImageDiff/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/lzehrung/ImageDiff</projectUrl>
+    <iconUrl>https://github.com/lzehrung/ImageDiff/blob/master/docs/images/secondImage.png</iconUrl>
+
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--*-->
     <description>A library for producing diffs of images with highlighting.</description>
@@ -21,14 +21,8 @@
     <releaseNotes>Forked from https://github.com/richclement/ImageDiff</releaseNotes>
     <copyright>Copyright (c) 2015 Richard Clement</copyright>
     <tags>image diff, image difference, visual regression</tags>
-    <dependencies>
-      <dependency id="System" version="4.0.0.0" />
-      <dependency id="System.Core" version="4.0.0.0" />
-      <dependency id="System.Drawing" version="4.0.0.0" />
-    </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\*.*" target="lib" />
     <file src="bin\Release\*.*" target="lib" />
   </files>
 </package>
