@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>ImageDiff</id>
+    <!--*-->
+    <version>1.0.0.0</version>
+    <title>ImageDiff</title>
+    <!--*-->
+    <authors>https://github.com/lzehrung</authors>
+    <owners>https://github.com/lzehrung</owners>
+    <!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>A library for producing diffs of images with highlighting.</description>
+    <!--*-->
+    <releaseNotes>Forked from https://github.com/richclement/ImageDiff</releaseNotes>
+    <copyright>Copyright (c) 2015 Richard Clement</copyright>
+    <tags>image diff, image difference, visual regression</tags>
+    <dependencies>
+      <dependency id="System" version="4.0.0.0" />
+      <dependency id="System.Core" version="4.0.0.0" />
+      <dependency id="System.Drawing" version="4.0.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\*.*" target="lib" />
+    <file src="bin\Release\*.*" target="lib" />
+  </files>
+</package>

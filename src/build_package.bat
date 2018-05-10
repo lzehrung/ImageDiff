@@ -1,0 +1,1 @@
+cmd /k ".\.nuget\nuget.exe pack .\ImageDiff\package.nuspec -Build -OutputDirectory .\Package"
